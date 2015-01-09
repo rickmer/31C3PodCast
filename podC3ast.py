@@ -49,7 +49,7 @@ print """<?xml version="1.0" encoding="utf-8"?>
 <description>all talks of the biggest hacker conference in the free world</description>
 <itunes:author>CCC e.V.</itunes:author>
 <link> https://media.ccc.de </link>
-<itunes:image href="https://pbs.twimg.com/profile_images/548259706452455424/6BPLQFcK_normal.png" />
+<itunes:image href="https://raw.githubusercontent.com/rickmer/31C3PodCast/master/logo.png" />
 <pubDate> Sat, 27 Dec 2014 00:00:00 EST </pubDate>
 <language>en-de</language>
 <copyright> CC-BY-3.0 </copyright>

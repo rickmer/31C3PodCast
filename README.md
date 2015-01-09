@@ -1,4 +1,4 @@
-31c3 Podcast
+31C3 Podcast
 ============
 
 usage: podC3ast.py > feed.xml

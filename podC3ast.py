@@ -34,7 +34,7 @@ for day in fahrplan.day:
                 author = []
                 for person in event.persons.getchildren():
                      author.append(person.text.encode('utf8', 'replace'))
-                item['author'] =  ', '.join(author)
+                item['author'] =  replace(', '.join(author), '&', '&amp;')
                 item['length'] = header(cdn_url + media_urls[int(event.attrib['id'])]).info().getheaders('Content-Length')[0]
                 date = datetime.strptime(event.date.text[:-6], '%Y-%m-%dT%H:%M:%S')
                 item['date'] = date.strftime(' %a, %d %b %Y %H:%M:%S ')

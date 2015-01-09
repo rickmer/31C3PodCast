@@ -3,4 +3,4 @@
 
 usage: podC3ast.py > feed.xml
 
-subscribe url: 
+subscribe url: https://raw.githubusercontent.com/rickmer/31C3PodCast/master/feed.xml 
